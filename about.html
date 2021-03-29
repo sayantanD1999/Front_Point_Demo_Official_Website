@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="global.css">
+  <title>Front Point About</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+  }
+
+  #animate1 {
+    position: relative;
+    animation-name: anim1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+  }
+  @keyframes anim1 {
+        0% {
+            right: 0px;
+        }
+
+        50% {
+            right: 10px;
+        }
+
+        100% {
+            right: 0px;
+        }
+    }
+
+    #animate2 {
+    position: relative;
+    animation-name: anim2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+  }
+  @keyframes anim2 {
+        0% {
+            left:0px;
+        }
+
+        50% {
+          left:10px;
+        }
+
+        100% {
+            left: 0px;
+        }
+    }
+</style>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#" style="color: white;">Front Point</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html" style="color:white;">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" style="color: white;">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html" style="color:white;">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html" style="color:white;">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <div class="jumbotron" style="background-color: white;">
+    <br><br><br>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="pic/undraw_connected_world_wuay.png" id="animate1" style="height:inherit; width: inherit;">
+      </div>
+      <div class="col-md-6" id="animate2">
+        <img src="pic/undraw_dev_focus_b9xo.png" id="animate2" style="height:inherit; width: inherit;">
+      </div>
+    </div>
+    <div>
+      <br><br><br><br><br><br>
+      <div class="row">
+        <div class="col-sm-8" style="text-align: center;">
+          <h1 style="text-align: center;">Our Organization</h1>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's
+            standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+            not
+            only five centuries, but also the leap
+            into electronic typesetting, remaining essentially unchanged. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+            not
+            only five centuries, but also the leap
+            into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+            release
+            of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </div>
+
+        <div class="col-sm-4">
+          <div id="container" style="display: flex; justify-content: center;">
+            <div data-aos="zoom-in" data-aos-delay="50" data-aos-duration="300">
+              <img src="pic/pexels-pixabay-269077.jpg" height="350px" width="350px">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container-fluid">
+    <h2 style="text-align: center;">Our Founders</h2>
+    <div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+
+            <div id="container" data-aos="fade-right" data-aos-delay="50" data-aos-duration="500"
+              style="display:flex; justify-content: center;">
+              <div id="child">
+                <div class="flip-img">
+                  <div class="flip-img-inner">
+                    <div class="flip-img-front">
+                      <img src="pic/jane doe.png" style="width:200px;height:200px;">
+                      <div style="padding: 2px 16px;">
+                        <h4><b>Co-Founder</b></h4>
+                        <p>!...Flip...!</p>
+                      </div>
+                    </div>
+                    <div class="flip-img-back">
+                      <div class="flip-content">
+                        <h2>Jane Doe</h2>
+                        <p>Backend Developer</p>
+                        <p>PHP & Java</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div id="container" data-aos="fade-left" data-aos-delay="50" data-aos-duration="500"
+              style="display:flex; justify-content: center;">
+              <div id="child">
+                <div class="flip-img">
+                  <div class="flip-img-inner">
+                    <div class="flip-img-front">
+                      <img src="pic/jon_doe.png" style="width:200px;height:200px;">
+                      <div style="padding: 2px 16px;">
+                        <h4><b>Co-Founder</b></h4>
+                        <p>!...Flip...!</p>
+                      </div>
+                    </div>
+                    <div class="flip-img-back">
+                      <div class="flip-content">
+                        <h2>John Doe</h2>
+                        <p>FuLL Stack Developer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+    <br><br>
+    <div class="container-fluid" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500">
+
+      <div style="background-color: #536162; text-align: center; color: aliceblue;">
+        <h2 style="text-align: center; ">Our Vision</h2>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s,<br>
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+        only five centuries, but also the leap<br>
+        into electronic typesetting, remaining essentially unchanged. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s,<br>
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+        only five centuries, but also the leap<br>
+        into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
+        of
+        Letraset sheets containing Lorem Ipsum passages,<br>
+        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        <br><br>
+      </div>
+    </div>
+    <br><br>
+
+    <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="500">
+      <div class="container-fluid">
+        <h2 style="text-align: center;"><strong>Our Key Members</strong></h2>
+        <div class="row">
+          <div class="col-sm-4">
+            <div id="container" style="display:flex; justify-content: center; align-items: center;">
+              <div id="child">
+                <div class="flip-img">
+                  <div class="flip-img-inner">
+                    <div class="flip-img-front">
+                      <img src="pic/jane doe.png" style="width:200px;height:200px;">
+                      <div style="padding: 2px 16px;">
+                        <h4><b>CEO</b></h4>
+                        <p>!...Flip...!</p>
+                      </div>
+                    </div>
+                    <div class="flip-img-back">
+                      <div class="flip-content">
+                        <h2>Jane Doe</h2>
+                        <p>Backend Developer</p>
+                        <p>PHP & Java</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div id="container" style="display:flex; justify-content: center;">
+              <div id="child">
+                <div class="flip-img">
+                  <div class="flip-img-inner">
+                    <div class="flip-img-front">
+                      <img src="pic/jon_doe.png" style="width:200px;height:200px;">
+                      <div style="padding: 2px 16px;">
+                        <h4><b>Project Head</b></h4>
+                        <p>!...Flip...!</p>
+                      </div>
+                    </div>
+                    <div class="flip-img-back">
+                      <div class="flip-content">
+                        <h2>John Doe</h2>
+                        <p>FuLL Stack Developer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div id="container" style="display:flex; justify-content: center;">
+              <div id="child">
+                <div class="flip-img">
+                  <div class="flip-img-inner">
+                    <div class="flip-img-front">
+                      <img src="pic/jane doe.png" style="width:200px;height:200px;">
+                      <div style="padding: 2px 16px;">
+                        <h4><b>HR</b></h4>
+                        <p>!...Flip...!</p>
+                      </div>
+                    </div>
+                    <div class="flip-img-back">
+                      <div class="flip-content">
+                        <h2>Jane Doe</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <br><br><br><br>
+    <div class="container-fluid" style="background-color:#424642; color:aliceblue">
+
+      <h2 style="text-align: center;">Our Achievements</h2>
+
+      <ul>
+      
+          <li data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's
+            standard dummy text ever since the 1500s,<br>
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+            not
+            only five centuries, but also the leap<br>
+            into electronic typesetting, remaining essentially unchanged. </li>
+        
+          <li data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's
+            standard dummy text ever since the 1500s,<br>
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+            not
+            only five centuries, but also the leap<br>
+            into electronic typesetting, remaining essentially unchanged. </li>
+       
+          <li data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's
+            standard dummy text ever since the 1500s,<br>
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+            not
+            only five centuries, but also the leap<br>
+            into electronic typesetting, remaining essentially unchanged. </li>
+
+          <li data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's
+            standard dummy text ever since the 1500s,<br>
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+            not
+            only five centuries, but also the leap<br>
+            into electronic typesetting, remaining essentially unchanged. </li>
+          <br><br>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+  <body>
+    <script>
+      AOS.init();
+    </script>
+
+</html>
